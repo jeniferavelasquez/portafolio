@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+
+
+#hero{
+	padding:15%;
+	background-color:#8B2222;
+	color:white;
+}
+
+h1{
+	font-weight:bolder;
+	text-transform: uppercase;
+	text-shadow: 2px 4px 4px rgba(0,0,0, .3);
+	
+}
+
+#about{
+	padding:5%;
+	background-color:#303030;
+	color:white;
+	
+}
+.picture{
+	width:50%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, .9)
+}
+.foto{
+	text-align: center;
+	border-radius: 5px;
+}
+.texto-about{
+	
+	padding:7% 5% 5% 0%;
+	
+}
+
+p{
+	font-size:18px;
+}
+
+#servicios{
+	padding:5%;
+}
+.icono{
+	padding:5%;
+	text-align: center;
+	font-size:50px;
+	font-weight: bolder;
+	
+}
+h2{
+	font-weight:bold;
+}
+.serv{
+	text-align: center;
+	margin: 0 0 15%;
+}
+#servicios h2{
+	margin: 0 0 15%;
+}
+.work_art{
+	text-align:center;
+}
+#portafolio{
+	padding:5%;
+	background-color: #8B2222;
+	color:white;
+}
+ h2{
+	margin: 0 0 8%;
+}
+
+.workpic{
+	width:55%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, .9);
+	margin-bottom: 50px;
+}
+
+#contacto{
+	padding:5%;
+	background-color:#303030;
+	color:white;
+	text-align:center;
+}
+
+footer{
+	text-align:center;
+	padding:5%;
+	background-color: black;
+	color:white;
+}
+
